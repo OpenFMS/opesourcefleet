@@ -10,19 +10,19 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
+<Heading as="h1" className="hero__title">
+  Open Source Fleet Resources
+</Heading>
+<p className="hero__subtitle">
+  Discover the best open-source software, hardware protocols, and telematics trends.
+</p>
+<div className={styles.buttons}>
+  <Link
+    className="button button--secondary button--lg"
+    to="/docs/software-list">
+    Browse Software List ⏱️
+  </Link>
+</div>
   );
 }
 
