@@ -1,19 +1,15 @@
-# Docusaurus 2
+# OpenSourceFleet
 
-This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) site that can be deployed to Vercel with zero configuration.
+## 定位： 行业资讯站 / 权威导航页 (The Authority) 目的： 不卖产品，只通过“客观内容”骗取 Google 信任，截获长尾流量。
 
-## Deploy Your Own
+## 极简运营策略 (MVP)：
 
-Deploy your own Docusaurus project with Vercel.
+### 不要做成新闻门户： 你没精力天天发新闻。
+ 
+### 要做成“资源黄页” (Directory)：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/docusaurus-2&template=docusaurus-2)
++ 核心页面 1： 《2026 Ultimate List of Open Source Fleet Software》（2026 终极开源车队软件清单）。列出 Traccar, Odoo, 还有你的 OpenFMS。
 
-_Live Example: https://docusaurus-2-template.vercel.app_
++ 核心页面 2： 《Top 10 GPS Trackers for Developers》（开发者最爱的 10 款 GPS 硬件）。
 
-### How We Created This Example
-
-To get started with Docusaurus on Vercel, you can use the [Docusaurus CLI](https://v2.docusaurus.io/docs/installation#scaffold-project-website) to initialize the project:
-
-```shell
-npx create-docusaurus@latest my-website classic
-```
++ AI 自动化内容： 利用你擅长的 AI (Gemini/Claude)，每周生成一篇行业文章（例如：“什么是 JT808 协议？”），保持网站活跃度。
